@@ -1,0 +1,1 @@
+eslint eslint-config-next eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier @‌typescript-eslint/eslint-plugin
