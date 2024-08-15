@@ -1,0 +1,35 @@
+{
+  "files.exclude": {
+    "out": false
+  },
+  "search.exclude": {
+    "out": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.fontFamily": "Cascadia Code, monospace",
+  "editor.formatOnSave": false,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.fontWeight": "450",
+  "editor.lineHeight": 2,
+  "editor.linkedEditing": true,
+  "files.autoSave": "afterDelay",
+  "editor.unusualLineTerminators": "auto",
+  "eslint.enable": true,
+  "eslint.useESLintClass": true,
+  "eslint.codeActionsOnSave.rules": [
+    "@typescript-eslint/semi",
+    "@typescript-eslint/indent",
+    "!@typescript-eslint/*",
+    "*"
+  ],
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.run": "onSave"
+}
